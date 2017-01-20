@@ -41,7 +41,7 @@ module.exports = app;
 const express = require('express');
 const bodyParser = require('body-parser');
 const app = express();
-//const crawler = require('./test/crawler/crawler');
+const crawler = require('./test/crawler/crawler');
 
 const crawlerEngine = new crawler();
 
